@@ -35,9 +35,19 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("../images/IMG_1321.jpg");
     background-size: cover;
     background-position: center;
+    background-image: url("../images/background/home.jpg");
+}
+.bg-letter{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/background/1-letter.jpg");  
 }
 .bg:after{
     content: "";
@@ -57,7 +67,7 @@
     content: "";
     position: absolute;
     width: 100%;
-    height: 180px;
+    height: 100px;
     background-color: #fefefe;
 }
 @media (max-width: 768px){
@@ -239,7 +249,6 @@
     width: 100%;
     display: block;
 }
-
 /* imgbox
 ---------------------*/
 .imgbox{
@@ -406,168 +415,7 @@
 .popup-menu__item:hover{
     color: #A8D8B9;
 }
-/*-------------------------*/
-/* $About
----------------------------*/
-.hero{
-    padding-top: 20vh;
-    padding-bottom: 20vh;
-}
-@media (max-width: 480px){
-    .hero{
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
-}
-.hero__heading{
-    font-size: 52px;
-    font-weight: 900;
-    color: #fefefe;
-}
-@media (max-width: 768px){
-    .hero__heading{
-        font-size: 48px;
-    }
-}
-/*.hero__bg{
-    position: absolute;
-    top: 40px;
-    width: 100%;
-    height: 100%;
-    background-image: url("../images/portrait.png");
-    background-size: 400px;
-    background-repeat: no-repeat;
-    background-position: top right;
-    left: 50%;
-    transform: translateX(-50%);
-    max-width: 1140px;
-}*/
-@media (max-width: 768px){
-    .hero__bg{
-        background-size: 320px;
-    }
-}
-@media (max-width: 480px){
-    .hero__bg{
-        background-size: 200px;
-    }
-}
 
-/*-------------------------*/
-/* $Quote
----------------------------*/
-.quote{
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-@media (max-width: 768px){
-    .quote{
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-} 
-.quote__content{
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-    color: #484848;
-}
-.quote__icon{
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    background-color: #A8D8B9;
-    text-align: center;
-    line-height: 64px;
-    font-size: 32px;
-    color: #fefefe;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 24px;
-}
-.quote__text{
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-    margin-bottom: 24px;
-}
-.quote__name span{
-    color: #A8D8B9;
-}
-/*-------------------------*/
-/* $Skill
----------------------------*/
-.skill{
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-@media (max-width: 768px){
-    .skill{
-        padding-top: 40px;
-        padding-bottom: 40px;
-    }
-} 
-.skill-group{
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-.skill-card{
-    padding-left: 32px;
-    margin-bottom: 32px;
-}
-.skill-card__inner{
-    background-color: #fefefe;
-    border-radius: 4px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
-    padding: 24px;
-    padding-left: 48px;
-}
-.skill-card__title{
-    color: #A8D8B9;
-    font-family: 'Nunito Sans','Helvetica', 'roboto', arial, sans-serif;
-    margin-top: 0;
-    margin-bottom: 8px;
-}
-.skill-card__text{
-    margin: 0;
-}
-.skill-card__icon{
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #f3f4f5;
-}
-.skill-card__icon .image{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    max-width: 60%;
-    max-height: 60%;
-}
-@media (max-width: 768px){
-    .skill-card__icon{
-        top: 0;
-        left: 50%;
-        transform: translate(-50%,-50%);
-    }
-    .skill-card{
-        padding: 0;
-        margin-top: 48px;
-    }
-    .skill-card__inner{
-        padding: 24px;
-        padding-top: 48px;
-    }
-    .skill-group{
-        padding-bottom: 0;
-    }
-}
 /*-------------------------*/
 /* $Experience
 ---------------------------*/

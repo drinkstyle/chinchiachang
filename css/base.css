@@ -556,7 +556,7 @@ h6{
 p{
   font-size: 16px;
   font-weight: 400;
-  font-family: 'Helvetica', 'roboto', arial, sans-serif;
+  font-family: 'Nunito Sans', 'Helvetica', 'roboto', arial, sans-serif;
   line-height: 32px;
   letter-spacing: 0;
   margin-bottom: 16px;
@@ -663,7 +663,6 @@ ul{
 .icon-paper-plane-empty:before { content: '\f1d9'; } /* '' */
 .icon-facebook-official:before { content: '\f230'; } /* '' */
 .icon-facebook-squared:before { content: '\f308'; } /* '' */
-.icon-linkedin-squared:before { content: '\f30c'; } /* '' */
 
 /*-------------------------*/
 /* $Utility 
